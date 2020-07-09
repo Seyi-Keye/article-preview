@@ -1,0 +1,42 @@
+@import '_variables.scss';
+
+.b-content-container {
+  height: 400px;
+  background-color: white;
+  padding-top: 47px;
+  padding-bottom: 22px;
+  padding-right: 34px;
+  padding-left: 34px;
+  padding-left: 34px;
+  border-radius: 10px 0px 5px 15px;
+  font-family: $headingsFamily;
+
+  & .b-content-container__title {
+    background-color: white;
+    font-size: large;
+    font-weight: $headingsWeightsPlus;
+    color: $veryDarkGrayishBlue;
+    margin-bottom: 27px;
+  }
+
+  & .b-content-container__text {
+    background-color: white;
+    font-size: $bodyFontsize;
+    font-weight: $headingsWeights;
+    color: $desaturatedDarkBlue;
+    text-align: left;
+    line-height: 15px;
+    height: 110px;
+  }
+
+  & .b-content-container-user-summary {
+    display: flex;
+    background-color: white;
+    height: 48px;
+
+    & .b-content-container-user-summary__display-picture {
+      border-radius: 50%;
+      height: 100%;
+    }
+  }
+}
