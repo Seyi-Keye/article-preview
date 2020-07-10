@@ -3,60 +3,69 @@
 * {
   box-sizing: border-box;
   background: $lightGrayishBlue;
+  // display: flexbox;
 }
 
-.b-article {
-  width: 100%;
-  height: 100%;
-  display: flex;
+// .b-article {
+//   // width: 100%;
+//   // height: 100%;
+//   display: flex;
 
-  .b-article-container {
-    border-radius: 15px 15px 0px 0px;
-    display: flex;
-    // height: 30%;
-    flex-direction: row;
-    margin: 155px 215px;
-    border-radius: 45px;
+//   .b-article-container {
+//     border-radius: 15px 15px 0px 0px;
+//     display: flex;
+//     // height: 30%;
+//     flex-direction: row;
+//     margin: 155px 215px;
+//     border-radius: 45px;
 
-    & .b-article-container-image {
-      background-image: url(./images/drawers.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      height: 100%;
-      border-radius: 15px 15px 0px 0px;
-    }
-  }
-}
+//     & .b-article-container-image {
+//       background-image: url(./images/drawers.jpg);
+//       background-repeat: no-repeat;
+//       background-size: cover;
+//       background-position: center;
+//       height: 100%;
+//       border-radius: 15px 15px 0px 0px;
+//     }
+//   }
+// }
 
-@media (max-width: $desktop) {
-  .b-article {
-    width: 100%;
-    height: 100%;
+// @media (max-width: $desktop) {
+//   .b-article {
+//     width: 100%;
+//     height: 100%;
 
-    & .b-article-container {
-      width: 100%;
-      margin: 155px 215px;
-    }
-  }
-}
+//     & .b-article-container {
+//       width: 100%;
+//       margin: 155px 215px;
+//     }
+//   }
+// }
 
 @media (max-width: $mobile) {
   .b-article {
-    width: 100%;
+    margin: auto;
+
+    width: 80%;
     height: 100%;
     & .b-article-container {
       flex-direction: column;
       width: 100%;
-      margin: 83px 28px 76px 28px;
+      margin: 50px 0px;
+    }
 
-      & .b-article-container-image {
-        height: 190px;
-      }
+    & .b-article-container-image {
+      background: url(./images/drawers.jpg);
+      height: 160px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px 15px 0px 0px;
+    }
 
-      & .b-article-container-content {
-        height: 361px;
-      }
+    & .b-article-container-content {
+      height: 361px;
     }
   }
 }
+// }
