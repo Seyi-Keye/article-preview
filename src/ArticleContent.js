@@ -21,10 +21,12 @@ function ArticleContent(props) {
           src={avatar}
           className="b-content-container-user-summary__display-picture"
         />
-        <p className="b-content-container-user-summary__fullname">
-          Michelle Appleton
-        </p>
-        <p className="b-content-container-user-summary__date">28 Jun 2020</p>
+        <div className="b-content-user-summary">
+          <p className="b-content-container-user-summary__fullname">
+            Michelle Appleton
+          </p>
+          <p className="b-content-container-user-summary__date">28 Jun 2020</p>
+        </div>
         <div className="b-content-container-share">
           <Image
             src={share}

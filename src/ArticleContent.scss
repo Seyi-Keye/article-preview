@@ -31,13 +31,37 @@
   & .b-content-container-user-summary {
     display: flex;
     background-color: white;
-    // height: 50px;
+    height: auto;
 
     & .b-content-container-user-summary__display-picture {
+      max-width: 100%;
+      // height: auto;
+      // padding: 20px;
       // border-radius: 50%;
       // height: 40%;
       // width: 30%;
-      // background-color: white;
+      background-color: white;
+      // margin-right: 50px;
+    }
+
+    & .b-content-container-user-summary__fullname {
+      font-weight: $headingsWeightsPlus;
+      color: $desaturatedDarkBlue;
+      background-color: white;
+    }
+
+    & .b-content-container-user-summary__date {
+      font-weight: $headingsWeights;
+      color: $desaturatedDarkBlue;
+      background-color: white;
+    }
+    & .b-content-user-summary {
+      background-color: white;
+    }
+
+    & .b-content-container-share {
+      border-radius: 50%;
+      height: 100%;
     }
   }
 }
