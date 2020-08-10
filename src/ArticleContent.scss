@@ -20,7 +20,7 @@
 
   & .b-content-container__text {
     background-color: white;
-    // font-size: $bodyFontsize;
+    font-size: $bodyFontsize;
     font-weight: $headingsWeights;
     color: $desaturatedDarkBlue;
     text-align: left;
@@ -36,14 +36,14 @@
 
     & .b-content-container-user-summary__display-picture {
       max-width: 100%;
-      // height: auto;
-      // padding: 20px;
-      // border-radius: 50%;
+      height: auto;
+      padding: 20px;
+      border-radius: 50%;
       height: 30%;
       width: 30%;
       border-radius: 50%;
       background-color: white;
-      // margin-right: 50px;
+      margin-right: 50px;
     }
 
     & .b-content-container-user-summary__fullname {
